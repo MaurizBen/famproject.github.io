@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    height: 100vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: white;
+
+}
+.counter-container{
+    width: 100%;
+    background-color:black;
+    position: sticky;
+    top: 0;
+    height: 50px;
+    color: white;
+    
+}
+.counter-ul{
+    list-style-type: none;
+    margin: auto;
+    text-align: center;
+    
+}
+li{
+    display: inline-block;
+    padding: 5px; 
+    font-size: 14px;
+}
+.counter{
+    margin: auto;
+    text-align: center;
+}
+.disp{
+    font-size: 14px;
+}
+.card-container{
+    width: 100%;
+    height: 100%;
+    
+}
+.container{
+    width: 500px;
+    height: 600px;
+    background-color: black;
+    color: yellowgreen;
+    margin: auto;
+    align-self: center;
+    margin-top: 3%;
+    border-radius: 5px;
+}
+.image{
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 69%;
+    
+    width: 150px;
+    height: 150px;
+
+}
+img{
+    width: 100%;
+    height: 100%;
+    
+}
+.content-container{
+    width: 100%;
+    margin-top: 2%;
+}
+.firstname{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.mike{
+    padding-left: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: whitesmoke;
+}
+.lastname{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.Ben{
+    padding-left: 10px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: whitesmoke;
+}
+.othername{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.ejike{
+    padding-left: 5px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: whitesmoke;
+}
+.email{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.gmail{
+    padding-left: 5px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: whitesmoke;
+}
+.phone{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.no{
+    padding-left: 5px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: whitesmoke;
+}
+.dob{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.date{
+    padding-left: 5px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: whitesmoke;
+}
+.fav-color{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.color{
+    padding-left: 5px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: whitesmoke;
+}
+.description{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.about{
+    padding-left: 15px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: whitesmoke;
+    line-height: 20px;
+    text-align:start;
+}
+.hobby{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.cont{
+    padding-left: 15px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: whitesmoke;
+    text-align:start;
+}
+.fav-food{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.food{
+    padding-left: 15px;
+    text-transform: capitalize;
+    color: whitesmoke
+}
+
+.deg{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.certificate{
+    padding-left: 15px;
+    text-transform: capitalize;
+    color: whitesmoke
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 780px){
+     body{
+        display: grid;
+        height: 100vh;
+    } 
+    .counter-container{
+    width: 100%;
+    background-color:whitesmoke;
+    position: sticky;
+    top: 0;
+    height: 70px;
+    color: black;
+    
+}
+.counter-ul{
+    list-style-type: none;
+    margin: auto;
+    text-align: center;
+    
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    
+    font-size: 15px;
+}
+.disp{
+    font-size: 20px;
+}
+    .card-container{
+        width: 90%;
+        height: 90%;
+        margin-top: 1%;
+        margin-left: 5%;
+    }
+    .container{
+        width: 700px;
+        height: 600px;
+        background-color: black;
+        margin:auto;
+        align-self: center;
+    }
+    .image{
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-left: 70%;
+    
+    width: 200px;
+    height: 200px;
+
+}
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .content-container{
+        width: 100%;
+        margin-top: 2%;
+    }
+    .firstname{
+        margin-top: 10px;
+        display: flex;
+        margin-left: 5px;
+        font-weight: bold;
+    }
+    .mike{
+        padding-left: 5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: white;
+    }
+    .lastname{
+        margin-top: 10px;
+        display: flex;
+        margin-left: 5px;
+        font-weight: bold;
+    }
+    .Ben{
+        padding-left: 10px;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        color: white;;
+    }
+    .othername{
+        margin-top: 10px;
+        display: flex;
+        margin-left: 5px;
+        font-weight: bold;
+    }
+    .ejike{
+        padding-left: 5px;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        color: white;
+    }
+    .email{
+        margin-top: 10px;
+        display: flex;
+        margin-left: 5px;
+        font-weight: bold;
+    }
+    .gmail{
+        padding-left: 5px;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        color: white;;
+    }
+    .phone{
+        margin-top: 10px;
+        display: flex;
+        margin-left: 5px;
+        font-weight: bold;
+    }
+    .no{
+        padding-left: 5px;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        color: white;;
+    }
+    .dob{
+        margin-top: 10px;
+        display: flex;
+        margin-left: 5px;
+        font-weight: bold;
+    }
+    .date{
+        padding-left: 5px;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        color: white;;
+    }
+    .fav-color{
+        margin-top: 10px;
+        display: flex;
+        margin-left: 5px;
+        font-weight: bold;
+    }
+    .color{
+        padding-left: 5px;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        color: white;;
+    }
+    .description{
+        margin-top: 10px;
+        display: flex;
+        margin-left: 5px;
+        font-weight: bold;
+    }
+    .about{
+        padding-left: 15px;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        color: white;;
+        line-height: 20px;
+        text-align:start;
+    }
+    .hobby{
+        margin-top: 10px;
+        display: flex;
+        margin-left: 5px;
+        font-weight: bold;
+    }
+    .cont{
+        padding-left: 15px;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        color: white;;
+        text-align:start;
+    }
+    .fav-food{
+        margin-top: 10px;
+        display: flex;
+        margin-left: 5px;
+        font-weight: bold;
+    }
+    .food{
+        padding-left: 15px;
+        text-transform: capitalize;
+        color: white;
+    }
+    
+    .deg{
+        margin-top: 10px;
+        display: flex;
+        margin-left: 5px;
+        font-weight: bold;
+    }
+    .certificate{
+        padding-left: 15px;
+        text-transform: capitalize;
+        color: white;
+    }
+      
+}
